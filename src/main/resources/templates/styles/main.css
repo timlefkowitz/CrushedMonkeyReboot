@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav {
+
+}
+
+body {
+    font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    background-color:black;
+    border : none; !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga" on;
+}

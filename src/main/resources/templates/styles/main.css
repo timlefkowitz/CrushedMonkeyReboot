@@ -1,10 +1,29 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+    text-decoration: inherit;
+    vertical-align: inherit;
+
 }
 
 nav {
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid;
+    border-color:#333333;
+    position: relative;
+    width: 100%;
+    z-index:50000;
+    color: #ffffff;
+    padding-top:2px;
+    padding-bottom:2px;
 
+}
+
+navitem{
+    padding-left: 5%;
+    padding-right:5%
 }
 
 body {

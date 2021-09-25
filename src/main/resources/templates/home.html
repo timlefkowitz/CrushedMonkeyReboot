@@ -5,39 +5,22 @@
     <title>Crushed Monkey</title>
 
 <!--    StyleSheets-->
-    <link th:href="@{/styles/main.css}" type="text/css" rel="stylesheet" />
+<!--    <link th:href="@{/styles/main.css}" type="text/css" rel="stylesheet" />-->
+    <link rel="stylesheet" href="styles/main.css">
 </head>
-
-<style>
-    * {
-        box-sizing: border-box;
-        margin: 0;
-    }
-
-    nav {
-
-    }
-
-    body {
-        font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-style: normal;
-        margin-left: 0px;
-        margin-right: 0px;
-        margin-top:0px;
-        margin-bottom: 0px;
-        background-color:black;
-        border : none; !important;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        -moz-font-feature-settings: "liga" on;
-    }
-</style>
 
 <body>
 
-<div id="header" style="height:30vh; width:100%; align-content: start; text-align: start; background-color:#2d2d2d; margin:0;!important;">
-    <h6 style="text-align: center ;font-size:60px; display:flex;justify-content:center; align-items:center; color:floralwhite; padding-top:6vh">CRUSHED MONKEY</h6>
+<div id="header" style="height:35vh; width:100%; align-content: start; text-align: start; background-color:#2d2d2d; margin:0;!important;">
+    <h6 style="text-align: center ;font-size:60px; display:flex;justify-content:center; align-items:center; color:floralwhite; padding-top:7vh">CRUSHED</h6>
+    <a style="text-align: center ;font-size:60px; display:flex;justify-content:center; align-items:center; color:floralwhite;">MONKEY</a>
 </div>
+
+<nav class="flex-container">
+    <div class="flex-item navitem" style="padding-left: 5%; padding-right:5%"><b> Reviews </b></div>
+    <div class="flex-item navitem" style="padding-left: 5%; padding-right:5%"><b> Game Design</b></div>
+    <div class="flex-item navitem" style="padding-left: 5%; padding-right:5%"><b> Collectable Culture </b></div>
+</nav>
 
 </body>
 </html>
